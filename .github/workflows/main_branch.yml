@@ -160,6 +160,7 @@ jobs:
           vid: '${{ secrets.API_ID }}'
           vkey: '${{ secrets.API_KEY }}'
           scantimeout: 15
+        continue-on-error: true
 
   get-policy-flaws:
     runs-on: ubuntu-latest
@@ -206,7 +207,7 @@ jobs:
 
   veracode-sca-task:
     runs-on: ubuntu-latest
-    name: Scan repository for Issues
+    name: Veracode Component Analysis
 
     steps:
       - name: Checkout
