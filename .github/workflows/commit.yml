@@ -367,6 +367,7 @@ jobs:
       image: veracode/pipeline-scan:latest
       options: --user root
     steps:
+      - uses: actions/checkout@v3
       - name: get archive
         uses: actions/download-artifact@v3
         with:
