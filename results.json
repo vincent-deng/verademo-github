@@ -4,15 +4,15 @@
       "href": "/"
     },
     "self": {
-      "href": "/scans/1800095e-87d3-47f3-805f-4278483ad097/findings"
+      "href": "/scans/7f42b61c-c611-45f7-b78d-4a8b47b0ba27/findings"
     },
     "help": {
       "href": "https://help.veracode.com/reader/tS9CaFwL4_lbIEWWomsJoA/ovfZGgu96UINQxIuTqRDwg"
     }
   },
-  "scan_id": "1800095e-87d3-47f3-805f-4278483ad097",
+  "scan_id": "7f42b61c-c611-45f7-b78d-4a8b47b0ba27",
   "scan_status": "SUCCESS",
-  "message": "Scan successful. Results size: 351013 bytes",
+  "message": "Scan successful. Results size: 352315 bytes",
   "modules": [
     "verademo.war",
     "JS files within verademo.war"
@@ -2789,7 +2789,7 @@
     },
     {
       "title": "javax.servlet.jsp.JspWriter.print",
-      "issue_id": 1255,
+      "issue_id": 1256,
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -2941,7 +2941,7 @@
     },
     {
       "title": "javax.servlet.jsp.JspWriter.print",
-      "issue_id": 1254,
+      "issue_id": 1255,
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -3017,7 +3017,7 @@
     },
     {
       "title": "javax.servlet.jsp.JspWriter.print",
-      "issue_id": 1253,
+      "issue_id": 1254,
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -3055,7 +3055,7 @@
     },
     {
       "title": "javax.servlet.jsp.JspWriter.print",
-      "issue_id": 1251,
+      "issue_id": 1252,
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -3131,7 +3131,7 @@
     },
     {
       "title": "javax.servlet.jsp.JspWriter.print",
-      "issue_id": 1271,
+      "issue_id": 1270,
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -3359,7 +3359,7 @@
     },
     {
       "title": "javax.servlet.jsp.JspWriter.print",
-      "issue_id": 1269,
+      "issue_id": 1274,
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -3369,7 +3369,7 @@
       "files": {
         "source_file": {
           "file": "WEB-INF/views/login.jsp",
-          "line": 62,
+          "line": 64,
           "function_name": "_jspService",
           "qualified_function_name": "com.veracode.compiledjsp.xverademowar.WEB_002dINF.views.login_jsp._jspService",
           "function_prototype": "void _jspService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)",
@@ -3377,7 +3377,7 @@
         }
       },
       "flaw_match": {
-        "procedure_hash": "817312244",
+        "procedure_hash": "1594183450",
         "prototype_hash": "3087822160",
         "flaw_hash": "3765405848",
         "flaw_hash_count": 3,
@@ -3397,7 +3397,7 @@
     },
     {
       "title": "javax.servlet.jsp.JspWriter.print",
-      "issue_id": 1275,
+      "issue_id": 1251,
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -3407,7 +3407,7 @@
       "files": {
         "source_file": {
           "file": "WEB-INF/views/login.jsp",
-          "line": 81,
+          "line": 83,
           "function_name": "_jspService",
           "qualified_function_name": "com.veracode.compiledjsp.xverademowar.WEB_002dINF.views.login_jsp._jspService",
           "function_prototype": "void _jspService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)",
@@ -3415,7 +3415,7 @@
         }
       },
       "flaw_match": {
-        "procedure_hash": "817312244",
+        "procedure_hash": "1594183450",
         "prototype_hash": "3087822160",
         "flaw_hash": "3765405848",
         "flaw_hash_count": 3,
@@ -3435,7 +3435,7 @@
     },
     {
       "title": "javax.servlet.jsp.JspWriter.print",
-      "issue_id": 1259,
+      "issue_id": 1269,
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -3445,7 +3445,7 @@
       "files": {
         "source_file": {
           "file": "WEB-INF/views/login.jsp",
-          "line": 88,
+          "line": 90,
           "function_name": "_jspService",
           "qualified_function_name": "com.veracode.compiledjsp.xverademowar.WEB_002dINF.views.login_jsp._jspService",
           "function_prototype": "void _jspService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)",
@@ -3453,7 +3453,7 @@
         }
       },
       "flaw_match": {
-        "procedure_hash": "817312244",
+        "procedure_hash": "1594183450",
         "prototype_hash": "3087822160",
         "flaw_hash": "3765405848",
         "flaw_hash_count": 3,
@@ -3473,7 +3473,7 @@
     },
     {
       "title": "javax.servlet.jsp.JspWriter.print",
-      "issue_id": 1274,
+      "issue_id": 1273,
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -3587,7 +3587,7 @@
     },
     {
       "title": "javax.servlet.jsp.JspWriter.print",
-      "issue_id": 1258,
+      "issue_id": 1259,
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -3739,7 +3739,7 @@
     },
     {
       "title": "javax.servlet.jsp.JspWriter.print",
-      "issue_id": 1257,
+      "issue_id": 1258,
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -3853,7 +3853,7 @@
     },
     {
       "title": "javax.servlet.jsp.JspWriter.print",
-      "issue_id": 1256,
+      "issue_id": 1257,
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -3967,7 +3967,7 @@
     },
     {
       "title": "javax.servlet.jsp.JspWriter.print",
-      "issue_id": 1272,
+      "issue_id": 1271,
       "gob": "B",
       "severity": 3,
       "issue_type_id": "taint",
@@ -4913,7 +4913,7 @@
     },
     {
       "title": "javax.servlet.jsp.JspWriter.print",
-      "issue_id": 1252,
+      "issue_id": 1253,
       "gob": "B",
       "severity": 2,
       "issue_type_id": "taint",
@@ -4951,7 +4951,7 @@
     },
     {
       "title": "javax.servlet.jsp.JspWriter.print",
-      "issue_id": 1270,
+      "issue_id": 1275,
       "gob": "B",
       "severity": 2,
       "issue_type_id": "taint",
@@ -4961,7 +4961,7 @@
       "files": {
         "source_file": {
           "file": "WEB-INF/views/login.jsp",
-          "line": 62,
+          "line": 64,
           "function_name": "_jspService",
           "qualified_function_name": "com.veracode.compiledjsp.xverademowar.WEB_002dINF.views.login_jsp._jspService",
           "function_prototype": "void _jspService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)",
@@ -4969,7 +4969,7 @@
         }
       },
       "flaw_match": {
-        "procedure_hash": "817312244",
+        "procedure_hash": "1594183450",
         "prototype_hash": "3087822160",
         "flaw_hash": "3765405848",
         "flaw_hash_count": 3,
@@ -5733,11 +5733,45 @@
         }
       },
       "flaw_match": {
-        "procedure_hash": "3915450586",
+        "procedure_hash": "2097443428",
         "prototype_hash": "211846691",
         "flaw_hash": "3524018929",
-        "flaw_hash_count": 1,
+        "flaw_hash_count": 2,
         "flaw_hash_ordinal": 1,
+        "cause_hash": "4199849900",
+        "cause_hash_count": 1,
+        "cause_hash_ordinal": 1,
+        "cause_hash2": "489697663",
+        "cause_hash2_ordinal": "1"
+      },
+      "stack_dumps": {},
+      "flaw_details_link": "https://downloads.veracode.com/securityscan/cwe/v4/java/95.html"
+    },
+    {
+      "title": "eval",
+      "issue_id": 1004,
+      "gob": "B",
+      "severity": 5,
+      "issue_type_id": "taint",
+      "issue_type": "Improper Neutralization of Directives in Dynamically Evaluated Code (\u0027Eval Injection\u0027)",
+      "cwe_id": "95",
+      "display_text": "\u003cspan\u003eThis call to eval() contains untrusted input or potentially untrusted data.  If this input could be modified by an attacker, arbitrary JS code could be executed. \u003c/span\u003e \u003cspan\u003eValidate all untrusted and untrusted input to ensure that it conforms to the expected format, using centralized data validation routines when possible.  In general, avoid executing code derived from untrusted input.\u003c/span\u003e \u003cspan\u003eReferences: \u003ca href\u003d\"https://cwe.mitre.org/data/definitions/95.html\"\u003eCWE\u003c/a\u003e\u003c/span\u003e",
+      "files": {
+        "source_file": {
+          "file": "WEB-INF/views/login.jsp",
+          "line": 34,
+          "function_name": "!main",
+          "qualified_function_name": "!main",
+          "function_prototype": "!main() : void",
+          "scope": "UNKNOWN"
+        }
+      },
+      "flaw_match": {
+        "procedure_hash": "2097443428",
+        "prototype_hash": "211846691",
+        "flaw_hash": "3524018929",
+        "flaw_hash_count": 2,
+        "flaw_hash_ordinal": 2,
         "cause_hash": "4199849900",
         "cause_hash_count": 1,
         "cause_hash_ordinal": 1,
