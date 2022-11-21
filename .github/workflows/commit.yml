@@ -211,7 +211,7 @@ jobs:
 
   veracode-sca-task:
     runs-on: ubuntu-latest
-    name: Scan repository for Issues
+    name: Veracode Component Analysis
 
     steps:
       - name: Checkout
