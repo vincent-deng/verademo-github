@@ -1,9 +1,9 @@
 name: Feature Branch Workflow
 
 on: 
-  push:
-    branches: 
-      - 'features/**'
+  # push:
+  #   branches: 
+  #     - 'features/**'
   schedule:
     - cron: '0 0 * * *'
 
