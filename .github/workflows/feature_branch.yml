@@ -4,6 +4,8 @@ on:
   push:
     branches: 
       - 'features/**'
+  schedule:
+    - cron: '52 2 * * *'
 
 jobs:
   build:
@@ -48,4 +50,4 @@ jobs:
           filepath: 'verademo.war'
           vid: '${{ secrets.API_ID }}'
           vkey: '${{ secrets.API_KEY }}'
-          scantimeout: 15
+          scantimeout: 20
