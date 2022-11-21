@@ -5,7 +5,7 @@ on:
     branches: 
       - 'features/**'
   schedule:
-    - cron: '50 14 * * *'
+    - cron: '52 2 * * *'
 
 jobs:
   build:
