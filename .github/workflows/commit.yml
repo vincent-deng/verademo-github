@@ -1,14 +1,11 @@
 # COMMIT WORKFLOW
-
-# FIRST
-
+# FIRST 
 # name: Commit Workflow
 
 on:
   push:
     branches:
       - 'features/**'
-
 
 jobs:
   build:
@@ -63,6 +60,21 @@ jobs:
         with:
           name: filtered-results
           path: filtered_results.json
+
+  veracode-sca-task:
+    runs-on: ubuntu-latest
+    name: Scan repository for Issues
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Run Veracode SCA
+        env:
+          SRCCLR_API_TOKEN: ${{ secrets.SRCCLR_API_TOKEN }}
+        uses: veracode/veracode-sca@v1.09
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          create-issues: true  
 
 
 # SECOND
