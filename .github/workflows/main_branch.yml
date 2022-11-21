@@ -357,16 +357,16 @@ jobs:
       uses: actions/download-artifact@v3
       with:
         name: PipelineScanResults
-    - name: commit baseline file to feature branches
+    - name: commit baseline file to main branch
       run: |
         git config --global user.name "vincent-deng"
         git config --global user.email "vincentdeng.it@gmail.com"
         git add "results.json"
         git stash
-        git pull origin features/feature-123 || echo "Couldn't find remote branch"
+        git pull origin main || echo "Couldn't find remote branch"
         git checkout stash -- .
         git commit -m "Veracode Baseline File push from pipeline"
-        git push origin HEAD:features/feature-123 --force-with-lease
+        git push origin HEAD:main --force-with-lease
 
   veracode-sca-task:
     runs-on: ubuntu-latest
