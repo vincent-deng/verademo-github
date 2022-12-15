@@ -1,4 +1,4 @@
-name: Test GitHub App
+name: Test GitHub App 1
 
 on: 
   push:
