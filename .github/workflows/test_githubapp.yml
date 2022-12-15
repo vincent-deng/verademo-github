@@ -1,4 +1,4 @@
-name: Main Branch Workflow
+name: Test GitHub App
 
 on: 
   push:
