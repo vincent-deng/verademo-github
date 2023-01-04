@@ -8,7 +8,6 @@
 
 
 
-
 ## About
 
 Blab-a-Gag is a fairly simple forum type application which allows:
